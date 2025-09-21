@@ -262,6 +262,7 @@ return {
       desc = "Goto T[y]pe Definition",
     },
     { "<leader>ss", false },
+    { "<leader>S", false },
     { "<leader>sS", false },
     -- Other
     {
@@ -285,13 +286,13 @@ return {
       end,
       desc = "Toggle Scratch Buffer",
     },
-    {
-      "<leader>S",
-      function()
-        Snacks.scratch.select()
-      end,
-      desc = "Select Scratch Buffer",
-    },
+    -- {
+    --   "<leader>S",
+    --   function()
+    --     Snacks.scratch.select()
+    --   end,
+    --   desc = "Select Scratch Buffer",
+    -- },
     {
       "<leader>n",
       function()

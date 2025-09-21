@@ -44,6 +44,7 @@ return {
         -- { "<leader>H", "<cmd>Grapple toggle<cr>", hidden = true },
         -- { "<leader>h", "<cmd>Grapple toggle_tags<cr>", hidden = true },
         { "<leader>us", hidden = true },
+        { "<leader>S", hidden = true },
         {
           "<leader>/",
           function()
@@ -102,8 +103,8 @@ return {
         { "]", group = "next" },
         { "g", group = "goto" },
         { "gs", group = "surround" },
-        -- { "z", group = "fold" },
-        { "z", hidden = true },
+        { "z", group = "fold" },
+        -- { "z", hidden = true },
         {
           "<leader>b",
           group = "buffer",
